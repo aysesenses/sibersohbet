@@ -63,16 +63,25 @@ public class SunucuEkran extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBounds(new java.awt.Rectangle(100, 100, 400, 600));
 
-        jPanel1.setBackground(new java.awt.Color(153, 153, 153));
+        jPanel1.setBackground(new java.awt.Color(234, 181, 67));
 
+        jFormattedTextField1.setBackground(new java.awt.Color(248, 239, 186));
+        jFormattedTextField1.setForeground(new java.awt.Color(24, 44, 97));
         jFormattedTextField1.setText("127.0.0.1");
 
+        jLabel1.setForeground(new java.awt.Color(24, 44, 97));
         jLabel1.setText("IP:");
 
+        jFormattedTextField2.setBackground(new java.awt.Color(248, 239, 186));
+        jFormattedTextField2.setForeground(new java.awt.Color(24, 44, 97));
         jFormattedTextField2.setText("2020");
 
+        jLabel2.setForeground(new java.awt.Color(24, 44, 97));
         jLabel2.setText("Port:");
 
+        jButton1.setBackground(new java.awt.Color(255, 218, 121));
+        jButton1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(24, 44, 97));
         jButton1.setText("Başlat");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -80,6 +89,9 @@ public class SunucuEkran extends javax.swing.JFrame {
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(255, 218, 121));
+        jButton2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(24, 44, 97));
         jButton2.setText("Client");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -128,8 +140,14 @@ public class SunucuEkran extends javax.swing.JFrame {
 
         getContentPane().add(jPanel1, java.awt.BorderLayout.PAGE_START);
 
+        jPanel2.setBackground(new java.awt.Color(234, 181, 67));
+
+        jTextField1.setForeground(new java.awt.Color(24, 44, 97));
         jTextField1.setText("Merhaba");
 
+        jButton3.setBackground(new java.awt.Color(255, 218, 121));
+        jButton3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(24, 44, 97));
         jButton3.setText("Gönder");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -160,6 +178,7 @@ public class SunucuEkran extends javax.swing.JFrame {
 
         getContentPane().add(jPanel2, java.awt.BorderLayout.PAGE_END);
 
+        playCam.setBackground(new java.awt.Color(248, 239, 186));
         playCam.setPreferredSize(new java.awt.Dimension(340, 363));
         playCam.setLayout(new java.awt.BorderLayout());
 

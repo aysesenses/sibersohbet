@@ -58,14 +58,25 @@ public class KullaniciEkran extends javax.swing.JFrame implements WindowListener
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setBounds(new java.awt.Rectangle(300, 300, 400, 400));
 
+        jPanel1.setBackground(new java.awt.Color(234, 181, 67));
+
+        jFormattedTextField1.setBackground(new java.awt.Color(248, 239, 186));
+        jFormattedTextField1.setForeground(new java.awt.Color(24, 44, 97));
         jFormattedTextField1.setText("127.0.0.1");
 
+        jLabel1.setForeground(new java.awt.Color(24, 44, 97));
         jLabel1.setText("IP:");
 
+        jLabel2.setForeground(new java.awt.Color(24, 44, 97));
         jLabel2.setText("Port:");
 
+        jFormattedTextField2.setBackground(new java.awt.Color(248, 239, 186));
+        jFormattedTextField2.setForeground(new java.awt.Color(24, 44, 97));
         jFormattedTextField2.setText("2020");
 
+        jButton1.setBackground(new java.awt.Color(255, 218, 121));
+        jButton1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(24, 44, 97));
         jButton1.setText("Bağlan");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -73,8 +84,11 @@ public class KullaniciEkran extends javax.swing.JFrame implements WindowListener
             }
         });
 
+        jLabel3.setForeground(new java.awt.Color(24, 44, 97));
         jLabel3.setText("Kullanıcı Adı");
 
+        jTextField2.setBackground(new java.awt.Color(248, 239, 186));
+        jTextField2.setForeground(new java.awt.Color(24, 44, 97));
         jTextField2.setText("mehmet");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -96,7 +110,7 @@ public class KullaniciEkran extends javax.swing.JFrame implements WindowListener
                     .addComponent(jFormattedTextField2, javax.swing.GroupLayout.DEFAULT_SIZE, 134, Short.MAX_VALUE)
                     .addComponent(jFormattedTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, 134, Short.MAX_VALUE)
                     .addComponent(jTextField2))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 123, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 127, Short.MAX_VALUE)
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(34, 34, 34))
         );
@@ -123,8 +137,20 @@ public class KullaniciEkran extends javax.swing.JFrame implements WindowListener
 
         getContentPane().add(jPanel1, java.awt.BorderLayout.PAGE_START);
 
-        jTextField1.setText("Selam");
+        jPanel2.setBackground(new java.awt.Color(234, 181, 67));
 
+        jTextField1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jTextField1.setForeground(new java.awt.Color(24, 44, 97));
+        jTextField1.setText("Selam");
+        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField1ActionPerformed(evt);
+            }
+        });
+
+        jButton2.setBackground(new java.awt.Color(255, 218, 121));
+        jButton2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(24, 44, 97));
         jButton2.setText("Gönder");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -160,6 +186,7 @@ public class KullaniciEkran extends javax.swing.JFrame implements WindowListener
 
         getContentPane().add(jScrollPane1, java.awt.BorderLayout.CENTER);
 
+        panelForCam.setBackground(new java.awt.Color(248, 239, 186));
         panelForCam.setPreferredSize(new java.awt.Dimension(240, 177));
         panelForCam.setLayout(new java.awt.BorderLayout());
         getContentPane().add(panelForCam, java.awt.BorderLayout.LINE_END);
@@ -209,6 +236,10 @@ public class KullaniciEkran extends javax.swing.JFrame implements WindowListener
         }
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
 
     public void startCamera(KullaniciKontrol cm) {
         camPanel = new KameraPanel(this, cm);
