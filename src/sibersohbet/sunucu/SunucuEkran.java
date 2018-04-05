@@ -31,6 +31,7 @@ public class SunucuEkran extends javax.swing.JFrame {
      */
     public SunucuEkran() {
         initComponents();
+          this.setLocationRelativeTo(null);
 
         player = new OynatmaPaneli(new Vector<>(200));
         playCam.add(player, BorderLayout.CENTER);

@@ -20,6 +20,7 @@ public class PortIpForm extends javax.swing.JFrame {
      */
     public PortIpForm() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**
@@ -41,6 +42,7 @@ public class PortIpForm extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(234, 181, 67));
 
