@@ -1,2 +1,2 @@
 # sibersohbet
-#chat
+#chatuygulaması
