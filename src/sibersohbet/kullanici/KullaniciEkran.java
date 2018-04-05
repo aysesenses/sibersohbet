@@ -28,6 +28,7 @@ public class KullaniciEkran extends javax.swing.JFrame implements WindowListener
     public KullaniciEkran() {
         initComponents();
         addWindowListener(this);
+           this.setLocationRelativeTo(null);
 
     }
 
