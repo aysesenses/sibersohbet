@@ -20,8 +20,7 @@ public class PortIpForm extends javax.swing.JFrame {
      */
     public PortIpForm() {
         initComponents();
-        this.setLocationRelativeTo(null);
-    }
+ this.setLocationRelativeTo(null);    }
 
     /**
      * This method is called from within the constructor to initialize the form.

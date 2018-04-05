@@ -81,6 +81,7 @@ public class LoginForm extends javax.swing.JFrame {
         jTextField1.setBackground(new java.awt.Color(234, 181, 67));
         jTextField1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(24, 44, 97));
+        jTextField1.setCaretColor(new java.awt.Color(0, 51, 51));
 
         jPasswordField1.setBackground(new java.awt.Color(234, 181, 67));
         jPasswordField1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
